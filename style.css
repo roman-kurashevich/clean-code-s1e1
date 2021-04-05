@@ -40,7 +40,7 @@
   padding: 0px;
 }
 .section__list-item,
-h3 {
+.task-title {
   list-style: none;
 }
 .task__input_checkbox,
@@ -60,7 +60,7 @@ h3 {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.task-title,
 .add-section-label {
   color: #333;
   font-weight: 700;
