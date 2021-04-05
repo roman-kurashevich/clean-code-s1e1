@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-section-wrapper {
   display: flex;
 }
 ul {
@@ -44,10 +44,10 @@ h3 {
   list-style: none;
 }
 input,
-button {
+.task__button {
   outline: none;
 }
-button {
+.task__button {
   background: none;
   border: 0px;
   color: #888;
@@ -56,7 +56,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.task__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -108,7 +108,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > .task__input_checkbox {
   margin: 0 10px;
 }
 li > label {
@@ -120,12 +120,12 @@ li > label {
 li > .task__input_text {
   width: 226px;
 }
-button.delete img {
+.task__button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.task__button.delete img:hover {
   transform: rotateZ(0);
 }
 
